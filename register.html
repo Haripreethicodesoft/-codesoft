@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/style6.css">
+</head>
+<body>
+    <header>
+        <h1>Join Us </h1>
+        <h2>Sign up to our newsletter and hear about the big ideas and new campaigns, taking place all<br> around the world, that are helping to drive progress towards the Global Goals.</h2>
+
+    </header>
+    <section>
+        <!-- <form>
+            <input type="text" value="" placeholder="Name">
+            <input type="number" value="" placeholder="Mobile">
+            <input type="text" value="" placeholder="Email">
+          <div><input type="submit" value="Join"></div>  
+        </form> -->
+        <form class="needs-validation" novalidate action="./sucess.html">
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationTooltip01">First name</label>
+                <input type="text" class="form-control" id="validationTooltip01" value=""  placeholder="Name">
+                <div class="valid-tooltip">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="validationTooltip02">Email</label>
+                <input type="text" class="form-control" id="validationTooltip02" value="@gmail.com" required>
+                <div class="valid-tooltip">
+                  Looks good!
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationTooltip03">Country</label>
+                <input type="text" class="form-control" id="validationTooltip03" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid country.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationTooltip04">State</label>
+                <select class="custom-select" id="validationTooltip04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>tamilnadu</option>
+                  <option>andhra</option><option>kerala</option><option>delhi</option><option>karnadaka</option>
+                  
+            
+                  
+                </select>
+                <div class="invalid-tooltip">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationTooltip05">Zip</label>
+                <input type="text" class="form-control" id="validationTooltip05" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid zip.
+                </div> 
+              </div>
+            </div>
+            <button type="submit" class="btn btn-lg btn-danger" data-toggle="popover" title="Registeration Sucessfully" data-content="And here's some amazing content. It's very engaging. Right?">Join Us</button>
+          </form>
+         
+    </section>
+    
+</body>
+</html>
